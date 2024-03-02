@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    text-align: center;
+}
+
+.wrapper {
+    width: 1170px;
+    margin: 0 auto;
+}
+
+header {
+    height: 100px;
+    background: #eee4e1;
+    width: 100%;
+    z-index: 12;
+    position: fixed;
+}
+
+.logo {
+    width: 30%;
+    float: left;
+    line-height: 100px;
+    font-weight: 600;
+}
+
+.logo a {
+    text-decoration: none;
+    font-size: 30px;
+    font-family: fantasy;
+    color: black;
+}
+
+nav {
+    float: right;
+    line-height: 100px;
+}
+
+nav a {
+    text-decoration: none;
+    font-family: fantasy;
+    letter-spacing: 4px;
+    font-size: 20px;
+    margin: 0 10px;
+    color: black;
+}
+
+.banner-area {
+    width: 100%;
+    height: 500px;
+    position: fixed;
+    top: 100px;
+    background-image: url(https://images.unsplash.com/photo-1600334089648-b0d9d3028eb2?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center center;
+}
+
+.banner-area h2 {
+    padding-top: 8%;
+    font-size: 50px;
+    font-family: poppins;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.content-area {
+    width: 100%;
+    position: relative;
+    top: 450px;
+    background: #ddd;
+    height: 700px;
+}
+
+.content-area h2 {
+    font-family: fantasy;
+    letter-spacing: 4px;
+    padding-top: 40px;
+    font-size: 30px;
+    margin: 0;
+}
+
+.content-area p {
+    padding: 2% 0;
+    font-family: poppins;
+    line-height: 40px;
+}
+
+ul {
+
+    font-family: poppins;
+    text-align: justify;
+}
