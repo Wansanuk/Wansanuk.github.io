@@ -65,6 +65,7 @@ main {
     width: 100%;
     height: auto;
     top: 0px;
+    color: inherit;
 }
 
 .wrapper h1 {
@@ -88,6 +89,10 @@ main {
 
 .single-img {
     padding: 0 30px 30px;
+}
+
+.description {
+    color: black;
 }
 
 .img:hover {
