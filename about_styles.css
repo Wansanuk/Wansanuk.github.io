@@ -41,25 +41,25 @@ li a {
 }
 
 h2 {
-    color: #edede9;
+    color: #f7ede2;
     padding-top: 48px;
-    padding-left: 28px;
+    padding-left: 15px;
     margin-block-start: 0px;
 }
 
 p {
     width: 45%;
     padding-top: 5px;
-    padding-left: 28px;
+    padding-left: 35px;
     padding-right: 40px;
     font-size: 16px;
-    color: #edede9;
+    color: #f7ede2;
 }
 
 h3 {
-    color: #edede9;
+    color: #f7ede2;
     padding-top: 20px;
-    padding-left: 28px;
+    padding-left: 15px;
 }
 
 footer {
@@ -76,7 +76,7 @@ footer {
 
 main {
     max-width: auto;
-    background-image: url(https://images.unsplash.com/photo-1515688403147-44e0433f180f?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-image: url(beach.jpeg);
     font-size: 15px;
     text-align: justify;
     background-size: cover;
