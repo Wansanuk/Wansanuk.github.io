@@ -6,8 +6,10 @@
     background: #eee4e1;
     font-family: fantasy;
     font-size: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
     padding-left: 15px;
-    padding-right: 15px;
+    padding-right: 5px;
 }
 
 .navbar .links a:hover {
@@ -21,7 +23,7 @@
 }
 
 .logo {
-    font-size: 35px;
+    font-size: 30px;
     font-weight: 600;
     color: black;
 }
@@ -39,29 +41,32 @@ li a {
 }
 
 h2 {
-    color: rgba(82, 70, 70, 0.719);
-    padding-top: 20px;
-    padding-left: 15px;
+    color: #edede9;
+    padding-top: 48px;
+    padding-left: 28px;
+    margin-block-start: 0px;
 }
 
 p {
+    width: 45%;
     padding-top: 5px;
-    padding-left: 40px;
+    padding-left: 28px;
     padding-right: 40px;
     font-size: 16px;
+    color: #edede9;
 }
 
 h3 {
-    color: rgba(82, 70, 70, 0.719);
+    color: #edede9;
     padding-top: 20px;
-    padding-left: 15px;
+    padding-left: 28px;
 }
 
 footer {
     text-align: center;
     color: black;
-    font-family: fantasy;
-    padding-top: 10px;
+    padding: 10px;
+    font-size: 12px;
     background: #eee4e1;
 }
 
@@ -71,7 +76,7 @@ footer {
 
 main {
     max-width: auto;
-    background-image: url(https://images.unsplash.com/photo-1549432793-f28498377d49?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-image: url(https://images.unsplash.com/photo-1515688403147-44e0433f180f?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
     font-size: 15px;
     text-align: justify;
     background-size: cover;
@@ -81,10 +86,10 @@ main {
     background-attachment: scroll;
     width: 100%;
     height: auto;
-    top: 0px;
+    padding: 0px;
     color: rgb(58, 55, 55);
 }
 
 body {
-    margin: 5;
+    margin: 0px;
 }

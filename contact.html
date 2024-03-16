@@ -5,17 +5,31 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact</title>
+    <link rel="icon" href="favicon copy.ico" type="img/x-icon">
     <link rel="stylesheet" href="contact_styles.css">
 </head>
 
 <nav class="navbar">
     <div class="navdiv">
         <a href="index.html" class="logo">SACRED ROSE, CO.</a>
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a rel="about_styles.css" href="about.html">About</a></li>
-            <li><a href="index.html">Services</a></li>
-        </ul>
+
+        <!-- Google Calendar Appointment Scheduling begin -->
+        <link href="https://calendar.google.com/calendar/scheduling-button-script.css" rel="stylesheet">
+        <script src="https://calendar.google.com/calendar/scheduling-button-script.js" async></script>
+        <script>
+            (function () {
+                var target = document.currentScript;
+                window.addEventListener('load', function () {
+                    calendar.schedulingButton.load({
+                        url: 'https://calendar.google.com/calendar/appointments/schedules/AcZssZ1vpOSfteFHs-OD0i3NvxipNIppzsePcq3aKj6Qmv1EZdnP3yhR85N-uX1DtBpVlcUwWcNB4Q0b?gv=true',
+                        color: '#d6ccc2',
+                        label: "BOOK APPOINTMENT",
+                        target,
+                    });
+                });
+            })();
+        </script>
+        <!-- end Google Calendar Appointment Scheduling -->
 </nav>
 
 <main>
@@ -24,21 +38,22 @@
         <div class="contact-container">
             <form action="" class="contact-left">
                 <div class="contact-left-title">
-                    <h2>Contact Us</h2>
+                    <h2>Have any questions, reach out to us ...</h2>
                 </div>
                 <input type="text" name="name" placeholder="Name" class="contact-inputs" required>
                 <input type="email" name="email" placeholder="E-mail" class="contact-inputs" required>
                 <textarea name="message" placeholder="Message:" class="contact-inputs" required></textarea>
                 <button type="submit">Submit</button>
             </form>
-            <div class=" contact-right">
+            <div class="contact-right">
             </div>
         </div>
 
     </body>
 </main>
 
-<footer><a class="description" href="index.html">www.sacredroseco.com</a></footer>
+<footer class="description">© Sacred Rose, Co. All rights reserved.</footer>
+
 </body>
 
 </html>
